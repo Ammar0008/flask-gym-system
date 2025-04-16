@@ -1,2 +1,4 @@
-FLASK_APP=app.py
-FLASK_ENV=development
+//Set-Location {project_directory}//
+$env:FLASK_APP = "app.py"
+$env:FLASK_ENV = "development"
+flask run 
